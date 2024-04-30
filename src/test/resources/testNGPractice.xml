@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNG">
+    <test name="test1">
+        <classes>
+            <class name="tests.testNGPractice.AnnotationsExample"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Tests">
+    <test name="Checkout test">
+        <groups>
+            <run>
+                <include name="sanity"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.exampleWebSites.GoogleTest"></class>
+            <class name="tests.exampleWebSites.AmazonTest"></class>
+            <class name="tests.exampleWebSites.EtsyTest"></class>
+        </classes>
+    </test>
+    
+    
+    <test name="Login Tests">
+        <groups>
+            <run>
+                <include name="login"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.exampleWebSites.GoogleTest"></class>
+        </classes>
+    </test>
+</suite>
