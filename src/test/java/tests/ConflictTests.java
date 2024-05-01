@@ -23,6 +23,10 @@ public class ConflictTests {
 
     @Test
     public void test3() {
+
         System.out.println("Hello");
+
+        System.out.println("Hi everyone");
+
     }
 }
