@@ -53,6 +53,8 @@ public class CommonBasePage extends BasePage {
     }
 
 
+    @Override
+    public void search(String... parameters) {
 
-
+    }
 }
