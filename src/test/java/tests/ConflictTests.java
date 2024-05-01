@@ -20,4 +20,9 @@ public class ConflictTests {
 
         Assert.assertTrue(message.toUpperCase().contains("USA"));
     }
+
+    @Test
+    public void test3() {
+        System.out.println("Hi everyone");
+    }
 }
