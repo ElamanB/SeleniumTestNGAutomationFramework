@@ -9,12 +9,15 @@ public class ConflictTests {
     public void test1() {
         int a = 5;
         int b = 10;
-        System.out.println("Sum: " + (a + b) + (a + b));
+
+        System.out.println("Sum: " + (a + b) * 2);
+
     }
 
     @Test
     public void test2() {
         String message = "Welcome to USA!";
-        Assert.assertTrue(message.contains("USA"));
+
+        Assert.assertTrue(message.toUpperCase().contains("USA"));
     }
 }
